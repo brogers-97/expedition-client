@@ -1,0 +1,40 @@
+body {
+    background-image: url('../../public/images/wallpaper.png');
+}
+.user{
+    font-size: 60px;
+    margin: 10px 0 0 15px;
+}
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+}
+.homepage-cards{
+    display: flex;
+    flex-direction: row;
+}
+.card-container{
+    width: 100%;
+}
+.heading{
+    margin: 0 auto;
+}
+.card{
+    color: white;
+    border: 4px solid black;
+    height: 75vh;
+    margin: 15px;
+    background-color: rgba(0, 0, 51, 0.5);
+    backdrop-filter: blur(5px);
+}
+.game {
+    border: 1px solid black;
+    background: linear-gradient(to bottom, #990000, #ae2f2f, #990000);
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game p {
+    margin: 5px auto;
+}
